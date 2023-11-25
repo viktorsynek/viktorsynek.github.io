@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="jquery-2.1.4.js"></script>
+    <title>Viktor Synek</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="navbar flex">
+            <ul class="topnav-left">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="topnav-right">
+                <button id='dark-mode-toggle'>
+                    <i class="dark fas fa-moon"></i>
+                    <i class="light fas fa-sun hidden"></i>
+                </button>
+                <a id="resume" href="./Resume.pdf" download>RESUME</a>
+            </ul>
+        </div>
+    </div>
+    <section id="home">
+        <div class="title-text">
+            <h3>Hello World! My name is,</h3>
+            <h1><span id="col">Viktor Synek</span></h1>
+            <p>Full-stack Web Developer from Slovakia</p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/viktorsynek" target="_blank" id="github"><i class="fab fa-github"
+                    target="_blank"></i></a>
+            <a href="https://www.linkedin.com/in/viktor-synek-86a331228/" id="linkedin" target="_blank"><i
+                    class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/viktorcnek" target="_blank" id="twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="title-text">
+            <h1><span id="col">About</span></h1>
+        </div>
+        <div class="about-par">
+            <img src="./photo.jpg" alt="me" width="250">
+            <p>
+                Hello! My name is Viktor Synek. 
+                <br>
+                I am a 19 years old Full-stack Web Developer. 
+                <br>
+                I enjoy creating programs in various programming languages.
+                <br>
+                <span style="text-decoration: underline;">Main interest: MERN Stack</span>
+                <br>
+                I'm currently learning Computer Science at <a style="text-decoration: underline;" target="_blank" href="https://www.uni.sze.hu">Széchenyi University</a> in Győr.
+                <br>
+                <br>
+                A  list of languages and technologies I'm familiar with:
+                <br>
+                <span id="colored">></span> Front End [HTML, CSS, JavaScript, ReactJS]
+                <br>
+                <span id="colored">></span> Back End [NodeJS, ExpressJS, MongoDB]
+                <br>
+                <span id="colored">></span> Algorithms and Data Structures [Python]
+                <br>
+                <span id="colored">></span> Game Development [Unity - C#]
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="title-text">
+          <h1><span id="col">Projects</span></h1>
+        </div>
+        <div class="projects">
+          <div class="project-box">
+            <h2>Project 1 Title</h2>
+            <p>Short description of Project 1.</p>
+            <a href="link_to_github">GitHub Link</a>
+          </div>
+          <div class="project-box">
+            <h2>Project 2 Title</h2>
+            <p>Short description of Project 2.</p>
+            <a href="link_to_github">GitHub Link</a>
+          </div>
+          <div class="project-box">
+            <h2>Project 3 Title</h2>
+            <p>Short description of Project 3.</p>
+            <a href="link_to_github">GitHub Link</a>
+          </div>
+          <div class="project-box">
+            <h2>Project 4 Title</h2>
+            <p>Short description of Project 4.</p>
+            <a href="link_to_github">GitHub Link</a>
+          </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="title-text">
+            <h1><span id="col">Contact</span></h1>
+          </div>
+        <div class="contact-info">
+            <p>Currently looking for internship:</p>
+            <a href="mailto:contact@viktorsynek.com" id="contact-btn">Contact</a>
+            <p id="direct-mail">{contact@viktorsynek.com}</p>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/aa539ee7e3.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
