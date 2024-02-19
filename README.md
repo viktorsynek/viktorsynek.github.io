@@ -1,6 +1,6 @@
 # Viktor Synek's Portfolio
 
-The project was created by [Viktor Synek](https://github.com/viktorsynek)
+[Portfolio site](https://viktorsynek.github.io/)
 
 ## About the project
 
