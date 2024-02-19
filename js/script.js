@@ -1,3 +1,14 @@
+window.addEventListener('scroll', function() {
+  var navbar = document.getElementById('navbar');
+
+  if (window.scrollY === 0) {
+    navbar.style.marginTop = '15px';
+  } else {
+    navbar.style.marginTop = '0';
+  }
+});
+
+
 let darkMode = localStorage.getItem('darkMode'); 
 const darkModeToggle = document.querySelector('#dark-mode-toggle');
 
